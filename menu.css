@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box
+}
+
+h1{
+  color:red;
+  text-align: center;
+}
+
+.box {
+  border: 2px solid black;
+  background-color: #C0C0C0;
+  padding-left: va5px;
+  margin: 5px;
+}
+
+.plate {
+  border: 2px solid black;
+  background-color: pink;
+  width: 100px;
+  font-weight: 800;
+  font-size: 130%;
+  text-align: center;
+  margin: -2px;
+  /*padding: 2px 0px 5px 0px; /*Problème pour la couleur du fond ensuite...*/
+  position : relative;
+  float : right;
+
+}
+
+.beef{
+  background-color: #B22222;
+  color : white;
+}
+
+.sushi{
+  background-color: yellow;
+}
+
+p{
+  clear:right;
+  margin: 0px;
+  padding: 10px;
+}
+
+/*** For screens above 992px => DESKTOP VERSION ***/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+
+/*** For screen between 768px and 991 px => TABLET VERSION ***/
+@media (max-width: 991px) and (min-width: 768px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
